@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-04T23:10:21 IST" name="Suite" finished-at="2023-04-04T23:11:50 IST" duration-ms="89401">
+    <groups>
+    </groups>
+    <test started-at="2023-04-04T23:10:21 IST" name="FirefoxTest" finished-at="2023-04-04T23:11:35 IST" duration-ms="74350">
+      <class name="TestNGPack6.TestNGSearch">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:10:21 IST" name="OpenBrowser" finished-at="2023-04-04T23:10:24 IST" duration-ms="3855" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:10:24 IST" name="createPOMObject" finished-at="2023-04-04T23:10:24 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:10:24 IST" name="beforeMethod" finished-at="2023-04-04T23:10:51 IST" duration-ms="26253" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserIsPassWhiskeyThenAllText()[pri:1, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:10:51 IST" name="VerifyUserIsPassWhiskeyThenAllText" finished-at="2023-04-04T23:11:33 IST" duration-ms="42368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsPassWhiskeyThenAllText -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:11:33 IST" name="afterMethod" finished-at="2023-04-04T23:11:33 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserIsPassWhiskeyThenAllText status=SUCCESS method=TestNGSearch.VerifyUserIsPassWhiskeyThenAllText()[pri:1, instance:TestNGPack6.TestNGSearch@7c729a55] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:11:33 IST" name="clearObject" finished-at="2023-04-04T23:11:33 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack6.TestNGSearch@7c729a55]" started-at="2023-04-04T23:11:33 IST" name="afterTest" finished-at="2023-04-04T23:11:35 IST" duration-ms="1858" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack6.TestNGSearch -->
+    </test> <!-- FirefoxTest -->
+    <test started-at="2023-04-04T23:10:21 IST" name="EdgeTest" finished-at="2023-04-04T23:11:50 IST" duration-ms="89401">
+      <class name="TestNGPack6.TestNGSearch">
+        <test-method is-config="true" signature="OpenBrowser(java.lang.String)[pri:0, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:10:21 IST" name="OpenBrowser" finished-at="2023-04-04T23:10:24 IST" duration-ms="3244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:10:24 IST" name="createPOMObject" finished-at="2023-04-04T23:10:24 IST" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:10:24 IST" name="beforeMethod" finished-at="2023-04-04T23:11:05 IST" duration-ms="40715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="VerifyUserIsPassWhiskeyThenAllText()[pri:1, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:11:05 IST" name="VerifyUserIsPassWhiskeyThenAllText" finished-at="2023-04-04T23:11:49 IST" duration-ms="43942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyUserIsPassWhiskeyThenAllText -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:11:49 IST" name="afterMethod" finished-at="2023-04-04T23:11:49 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VerifyUserIsPassWhiskeyThenAllText status=SUCCESS method=TestNGSearch.VerifyUserIsPassWhiskeyThenAllText()[pri:1, instance:TestNGPack6.TestNGSearch@5c33f1a9] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="clearObject()[pri:0, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:11:49 IST" name="clearObject" finished-at="2023-04-04T23:11:49 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearObject -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNGPack6.TestNGSearch@5c33f1a9]" started-at="2023-04-04T23:11:49 IST" name="afterTest" finished-at="2023-04-04T23:11:50 IST" duration-ms="1430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- TestNGPack6.TestNGSearch -->
+    </test> <!-- EdgeTest -->
+  </suite> <!-- Suite -->
+</testng-results>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="EdgeTest(failed)">
+    <parameter name="browser" value="Edge"/>
+    <classes>
+      <class name="TestNGPack6.TestNGSearch">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="createPOMObject"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="OpenBrowser"/>
+          <include name="VerifyUserIsPassWhiskeyThenAllText"/>
+          <include name="clearObject"/>
+        </methods>
+      </class> <!-- TestNGPack6.TestNGSearch -->
+    </classes>
+  </test> <!-- EdgeTest(failed) -->
+  <test thread-count="2" parallel="classes" name="FirefoxTest(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <classes>
+      <class name="TestNGPack6.TestNGSearch">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="createPOMObject"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="OpenBrowser"/>
+          <include name="VerifyUserIsPassWhiskeyThenAllText"/>
+          <include name="clearObject"/>
+        </methods>
+      </class> <!-- TestNGPack6.TestNGSearch -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
