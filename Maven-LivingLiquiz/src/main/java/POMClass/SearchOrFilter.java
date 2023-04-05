@@ -16,8 +16,6 @@ public class SearchOrFilter {
 	@FindBy (xpath="//div[@class='typeahead__result']//ul//descendant ::li[@class='typeahead__item typeahead__group-products']")
 	private List<WebElement> SearchList;
 	
-	@FindBy (xpath="//input[@class='wbr-main-search']")
-	private WebElement DUMMY;
 	
 	
 	
