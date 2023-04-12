@@ -7,7 +7,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
-
+//CHANGE MASTER BRANCH
 	
 
 	@FindBy (xpath="//div[contains(@class,'fs-12 text-uppercase text-alpha fw-500')]")
